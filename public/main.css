@@ -1,0 +1,98 @@
+* {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 9pt;
+   border-radius: 3px;
+}
+
+h1 {
+   font-size: 12pt;
+   border-bottom: 5px solid cyan;
+
+}
+
+body {
+   /*border: 2px solid green;*/
+   display: flex;
+   justify-content: center;
+}
+
+main {
+  margin: 0 auto;
+  display: inline-block;
+  /*display: flex;
+  justify-content: center;*/
+  /*border: 2px solid black;*/
+}
+
+#header {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+#form-input {
+   /*border: 2px solid red;*/
+   width: 550px;
+   height: 50px;
+   padding-left: 10px;
+}
+
+
+input, select {
+   width: 80px;
+   margin-right: 25px;
+}
+
+.listing {
+   /*border: 2px solid red;*/
+   width: 600px;
+   height: 200px;
+   color: white;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 35px;
+   position: relative;
+   background-color: grey;
+   padding: 10px;
+}
+
+.listing > * > * {
+   /*border: 2px solid red;*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.tab {
+   position: absolute;
+   top: -26px; right: 3px;
+   border: 1px solid black;
+   height: 20px;
+   background-color: aqua;
+   color: white;
+   padding: 3px;
+}
+
+.top-split {
+   display: flex;
+   justify-content: space-between;
+   /*border: 2px solid green;*/
+   width: 100%;
+
+}
+
+.bttm-split {
+   display: flex;
+   justify-content: space-between;
+   /*border: 2px solid green;*/
+   height: 30px;
+   width: 100%;
+}
+
+.holding, .pct-change {
+   height: 100px;
+   width: 290px;
+   font-size: 24pt;
+   font-weight: 700;
+   color: white;
+}
